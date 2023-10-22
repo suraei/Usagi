@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  nmap:
+    build:
+      context: ./docker/nmap
+
+  theharvester:
+    build:
+      context: ./docker/theHarvester
+
+  sublist3r:
+    build:
+      context: ./docker/sublist3r
